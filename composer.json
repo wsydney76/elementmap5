@@ -1,0 +1,34 @@
+{
+	"name": "wsydney76/elementmap5",
+	"description": "Lists related elements.",
+	"type": "craft-plugin",
+	"license": "MIT",
+  "authors": [
+    {
+      "name": "wsydney76",
+      "homepage": "https://github.com/wsydney76"
+    }
+  ],
+	"require": {
+		"craftcms/cms": "^5.0.0-beta.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"wsydney76\\elementmap5\\": "src/"
+		}
+	},
+	"extra": {
+		"name": "Element Map 5",
+		"handle": "elementmap5",
+		"schemaVersion": "1.0.0",
+		"hasCpSettings": false,
+		"hasCpSection": false,
+		"class": "wsydney76\\elementmap5\\ElementMap5"
+	},
+	"config": {
+		"allow-plugins": {
+			"yiisoft/yii2-composer": true,
+			"craftcms/plugin-installer": true
+		}
+	}
+}
