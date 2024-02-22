@@ -29,7 +29,7 @@ composer require wsydney76/elementmap5
 3. Install the plugin via the command line:
 
 ```bash
-./craft install/plugin elementmap5
+craft plugin/install elementmap5
 ```
 
 ## Usage
@@ -58,7 +58,7 @@ Not tested in multi-site environments.
 
 Not performance optimized.
 
-Does not support deprecated element types (like categories, tags, globals, etc. Some dead code is still.)
+Does not support deprecated element types (like categories, tags, globals, etc. Some dead code is still there.)
 
 Only supports core element types (as plugins like super table or commerce are not yet available right now).
 
